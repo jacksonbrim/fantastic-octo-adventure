@@ -1,0 +1,15 @@
+---
+title: Dice Simulation Strategy 1
+---
+stateDiagram-v2
+    [*] --> ChecksRolls
+    ChecksRolls --> Decision: if rolls > 0
+    Decision --> ShouldRoll: if should_roll() == true
+    ShouldRoll --> Roll : if 
+    Decision --> Take: if should_roll() == false
+    Roll --> DecreaseRolls : rolls -= 1
+    Take --> IncreaseBankroll : bankroll += die_result
+    IncreaseBankroll --> ChecksRolls
+    DecreaseRolls --> ChecksRolls
+    ChecksRolls --> GameOver: if rolls == 0
+

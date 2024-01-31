@@ -1,0 +1,15 @@
+---
+title: Dice Simulation Strategy 2: Only take if 20
+---
+stateDiagram-v2
+    [*] --> ChecksRolls20
+    ChecksRolls20 --> Decision20: if rolls > 0
+    Decision20 --> Roll20: if die_result != 20
+    Decision20 --> Take20: if die_result == 20
+    Roll20 --> DecreaseRolls20: rolls -= 1
+    Take20 --> IncreaseBankroll20: bankroll += die_result
+    IncreaseBankroll20 --> ChecksRolls20
+    DecreaseRolls20 --> ChecksRolls20
+    ChecksRolls20 --> [*]: rolls == 0
+
+
