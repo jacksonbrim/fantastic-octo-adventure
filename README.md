@@ -54,10 +54,17 @@ example queries:
 * 13 in = ? hr ---> "not convertible!"
 '''
 
-##### Playing around with mermaidjs
+#####Dice Game Strategies
+######Strategy 1:
+Roll if the value of the current die-result is less than the sum of the
+expected values of all die results greater than the current result for
+the current turn.
+![Dice Game: Strategy 1 State Flow](./mermaid_diagrams/dice_game_strat_1.svg)
+######Strategy 2:
+Roll if the value is less than 20.
+![Dice Game: Strategy 2: 20s Only State Flow](./mermaid_diagrams/dice_game_strat_2.svg)
+####Unit Conversion Class Diagram
 ![Unit Conversion Class Diagram](./mermaid_diagrams/class_uml.svg?sanitize=true)
-![Dice Game: Strategy 1 State Flow](./mermaid_diagrams/dice_game_strategy1.svg?sanitize=true)
-![Dice Game: Strategy 2: 20s Only State Flow](./mermaid_diagrams/dice_game_strategy2_only20s.svg?sanitize=true)
 
 
 

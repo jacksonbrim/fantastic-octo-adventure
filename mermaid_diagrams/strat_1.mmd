@@ -4,7 +4,7 @@ title: Dice Simulation Strategy 1
 stateDiagram-v2
     [*] --> ChecksRolls
     ChecksRolls --> Decision: if rolls > 0
-    Decision --> ShouldRoll: if should_roll()
+    Decision --> ShouldRoll
     ShouldRoll --> Roll : if EV Sum > die_result
     ShouldRoll --> Take : if EV Sum <= die_result
     Roll --> DecreaseRolls : rolls -= 1
