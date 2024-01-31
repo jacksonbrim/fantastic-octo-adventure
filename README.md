@@ -20,38 +20,4 @@ example queries:
 '''
 
 ##### My Solution
-```mermaid
----
-title: Unit Conversion Query Example 
----
-classDiagram
-    Distance <|-- ConversionUnit
-    Time <|-- ConversionUnit
-    class ConversionQuery{
-        ConversionUnit from 
-        ConversionUnit to 
-        f32 value
-        new(val: f32, from: &str, to: &str)
-        convert_units(&self)
-        get_conversion_error(&self)
-
-    }
-    class ConversionUnit{
-        <<enumeration>>
-        Distance~Distance~
-        Time~Time~
-    }
-    class Distance{
-        <<enumeration>>
-        Meters
-        Feet
-        Inches
-    }
-    class Time
-        <<enumeration>>
-        Hours
-        Minutes
-    class ConversionError
-        String Error
-```
-
+![Image of class diagram](./mermaid_diagrams/class_uml.svg?sanitize=true)
