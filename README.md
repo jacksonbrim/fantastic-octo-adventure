@@ -19,5 +19,11 @@ example queries:
 * 13 in = ? hr ---> "not convertible!"
 '''
 
-##### My Solution
+##### Playing around with mermaidjs
 ![Image of class diagram](./mermaid_diagrams/class_uml.svg?sanitize=true)
+
+To run tests
+```
+cargo test
+```
+
