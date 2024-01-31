@@ -55,7 +55,9 @@ example queries:
 '''
 
 ##### Playing around with mermaidjs
-![Image of class diagram](./mermaid_diagrams/class_uml.svg?sanitize=true)
+![Unit Conversion Class Diagram](./mermaid_diagrams/class_uml.svg?sanitize=true)
+![Dice Game: Strategy 1 State Flow](./mermaid_diagrams/dice_game_strategy1.svg?sanitize=true)
+![Dice Game: Strategy 2: 20s Only State Flow](./mermaid_diagrams/dice_game_strategy2_only20s.svg?sanitize=true)
 
 
 
