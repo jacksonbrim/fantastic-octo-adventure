@@ -59,10 +59,10 @@ example queries:
 Roll if the value of the current die-result is less than the sum of the
 expected values of all die results greater than the current result for
 the current turn.
-![Dice Game: Strategy 1 State Flow](./mermaid_diagrams/dice_game_strat_1.svg)
+![Dice Game: Strategy 1 State Flow](./mermaid_diagrams/dice_game_strat_1.svg?sanitize=true)
 ######Strategy 2:
 Roll if the value is less than 20.
-![Dice Game: Strategy 2: 20s Only State Flow](./mermaid_diagrams/dice_game_strat_2.svg)
+![Dice Game: Strategy 2: 20s Only State Flow](./mermaid_diagrams/dice_game_strat_2.svg?sanitize=true)
 ####Unit Conversion Class Diagram
 ![Unit Conversion Class Diagram](./mermaid_diagrams/class_uml.svg?sanitize=true)
 
