@@ -1,5 +1,5 @@
 # Purpose
-I came across a video of a Jane Street Mock Interview, and was curious
+I came across a [video of a Jane Street Mock Interview](https://www.youtube.com/watch?v=V8DGdPkBBxg), and was curious
 to implement it in Rust. The purpose of the problem wasn't to show off
 DSA, but to demonstrate talking through a code exercise with an
 interviewer. 
