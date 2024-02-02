@@ -54,7 +54,9 @@ example queries:
 * 13 in = ? hr ---> "not convertible!"
 '''
 
-#####Dice Game Strategies
+#####Dice Game Strategy Simulation
+Implementation of part 1 of this problem on [Jane Street's
+youtube](https://www.youtube.com/watch?v=NT_I1MjckaU).
 ######Strategy 1:
 Roll if the value of the current die-result is less than the sum of the
 expected values of all die results greater than the current result for
